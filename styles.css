@@ -1,0 +1,141 @@
+body {
+    font-size: 15px;
+    font-family: 'Overpass', sans-serif;
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(217, 12%, 63%);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.after-img {
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+h1 {
+    color: white;
+    font-size: 26px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.main-container {
+    background-color: #1C232D;
+    height: 360px;
+    width: 300px;
+    border-radius: 15px;
+    padding: 5px 25px 15px 25px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.after-content {
+    display: none;
+}
+
+.attribution {
+    display: none;
+}
+
+.rate-btn {
+    background-color: #262E38;
+    border-radius: 100px;
+    height: 43px;
+    width: 43px;
+    padding-top: 5px;
+}
+
+.rate-btn:hover {
+    background-color:hsl(25, 97%, 53%);
+    color: white;
+}
+
+.rate-btn:active, .rate-btn:focus {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+.btn-focus {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+
+button {
+    border: none;
+    outline: none;
+    color: hsl(216, 12%, 54%);
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+.submit-btn {
+    background-color: hsl(25, 97%, 53%);
+    font-family: 'Overpass', sans-serif;
+    color: white;
+    width: 290px;
+    margin: 0 auto;
+    padding-top: 5px;
+    font-size: 15px;
+    height: 45px;
+    border-radius: 100px;
+}
+
+.submit-btn:hover {
+    background-color: white;
+    color:hsl(25, 97%, 53%);
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 290px;
+    margin: 20px auto 20px auto;
+}
+
+.submit-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.after-content {
+    text-align: center;
+}
+
+.selected {
+    color:hsl(25, 97%, 53%);
+    background-color: #262E38;
+    border-radius: 100px;
+    width: 175px;
+    padding: 5px 5px 3px 5px;
+    font-size: 15px;
+    display: flex;
+    margin: 10px auto 25px auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.selected p {
+    margin: 0;
+}
