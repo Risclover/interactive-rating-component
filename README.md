@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/interactive-rating-component-SyFIVBxN5)
 - [Live Site URL](https://risclover.github.io/interactive-rating-component)
 
 ## My process
